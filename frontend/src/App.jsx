@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation, Navig
 import UploadComponent from './components/UploadComponent';
 import LoginPage from './components/Login';
 import './styles.css';
+import logo from "./assets/logo.png";
 import { useMsal } from '@azure/msal-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
@@ -50,14 +51,14 @@ function Header({ username, setUsername, msalInstance, showDropdown, setShowDrop
   if (location.pathname === "/login") {
     return (
       <header style={{ textAlign: 'center' }}>
-        <div className="header-title" style={{textAlign: 'center',width: '100%'}}>MDC Application</div>
+        <div className="header-title" style={{textAlign: 'center',width: '100%'}}><img src={logo} alt="Logo" className="headerlogo" /></div>
       </header>
     );
   }
 
   return (
     <header>
-      <div className="header-title">MDC Application</div>
+      <div className="header-title"><img src={logo} alt="Logo" className="headerlogo" /></div>
       <div 
         className="welcome-text" 
         onMouseEnter={() => setShowDropdown(true)} 
