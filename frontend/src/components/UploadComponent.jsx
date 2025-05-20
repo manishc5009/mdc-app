@@ -47,7 +47,7 @@ function StepProgress({ currentStep, onStepClick, completedStep }) {
                   width: '24px',
                   height: '24px',
                   borderRadius: '50%',
-                  backgroundColor: step.id <= activeStep ? '#ea580c' : '#d1d5db',
+                  backgroundColor: step.id <= activeStep ? '#6801e0' : '#d1d5db',
                   margin: '0 auto',
                   zIndex: 2,
                   position: 'relative',
@@ -62,7 +62,7 @@ function StepProgress({ currentStep, onStepClick, completedStep }) {
                     left: '0%',
                     width: '100%',
                     height: '4px',
-                    backgroundColor: step.id < activeStep ? '#ea580c' : '#d1d5db',
+                    backgroundColor: step.id < activeStep ? '#6801e0' : '#d1d5db',
                     zIndex: 1,
                     transform: 'translateX(50%)',
                   }}
@@ -74,7 +74,7 @@ function StepProgress({ currentStep, onStepClick, completedStep }) {
                 style={{
                   marginTop: '8px',
                   fontSize: '0.875rem',
-                  color: step.id <= activeStep ? '#ea580c' : '#6b7280',
+                  color: step.id <= activeStep ? '#6801e0' : '#6b7280',
                   fontWeight: step.id === activeStep ? '600' : '400',
                   cursor: isClickable ? 'pointer' : 'default',
                   userSelect: 'none',
@@ -452,7 +452,7 @@ export default function UploadComponent() {
                         left: 0,
                         height: '100%',
                         width: `${progress}%`,
-                        backgroundColor: '#ea580c4d',
+                        backgroundColor: '#6801e04d',
                         zIndex: 1,
                         transition: 'width 0.3s ease',
                         borderRadius: '0.375rem',
@@ -529,7 +529,7 @@ export default function UploadComponent() {
                   width: '3rem',
                   height: '3rem',
                   border: '0.4em solid #f3f3f3',
-                  borderTop: '0.4em solid #ea580c',
+                  borderTop: '0.4em solid #6801e0',
                   borderRadius: '50%',
                   animation: 'spin 1s linear infinite',
                 }} />
@@ -584,7 +584,7 @@ export default function UploadComponent() {
                   width: '3rem',
                   height: '3rem',
                   border: '0.4em solid #f3f3f3',
-                  borderTop: '0.4em solid #ea580c',
+                  borderTop: '0.4em solid #6801e0',
                   borderRadius: '50%',
                   animation: 'spin 1s linear infinite',
                 }} />
