@@ -12,6 +12,6 @@ export const msalConfig = {
     auth: {
       clientId: "29f0b01a-702c-43ed-9056-5e0e229e7ba6",
       authority: "https://login.microsoftonline.com/b5af2451-e21b-4aa2-b4b5-dc5907908dd8",
-      redirectUri: "http://c5imdcapp.azurewebsites.net",
+      redirectUri: "https://c5imdcapp.azurewebsites.net",
     }
   };
