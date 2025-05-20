@@ -22,7 +22,7 @@ body {
 .dropdown-menu button {
   background: none;
   border: none;
-  color: #f97316;
+  color: #6801e0;
   cursor: pointer;
 }
 
@@ -54,7 +54,7 @@ header {
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
-  color: #ea580c;
+  color: #6801e0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,7 +159,7 @@ header {
     margin: 0 auto;
     display: block;
     margin-top: 20px;
-    background-color: #ea580c;
+    background-color: #6801e0;
     color: #fff;
     padding:10px;
     border-radius:20px;
@@ -191,7 +191,7 @@ header {
   
   
   .download-button:hover {
-    background-color: #ea580c; /* orange-600 */
+    background-color: #6801e0; /* orange-600 */
   }
   
   /* Preview table styling */
@@ -219,7 +219,7 @@ header {
   
   /* Error message styling */
   .error-message {
-    color: #e53e3e;
+    color: #6801e0;
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
@@ -403,7 +403,7 @@ header {
   cursor: pointer;
 }
 .next-button:hover{
-  border-color:#ea580c !important;
+  border-color:#6801e0 !important;
   background-color: #fff;
 }
 .align-right {
