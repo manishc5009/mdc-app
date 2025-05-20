@@ -50,8 +50,8 @@ body {
 header {
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  padding: 1rem;
-  text-align: center;
+  padding: 5px 75px;
+/*   text-align: center; */
   font-size: 1.25rem;
   font-weight: bold;
   color: #6801e0;
@@ -68,6 +68,12 @@ header {
   background-color: #ffffff;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.headerlogo{
+  width: 7%;
+  margin-right: 10px;
 }
 
 /* Title */
