@@ -16,7 +16,7 @@ function App() {
 }
 
 function AppContent() {
-  const { instance } = useMsal();
+  const { instance, accounts } = useMsal();
   const [username, setUsername] = useState(localStorage.getItem("username") || "User");
   const [showDropdown, setShowDropdown] = useState(false);
   const location = useLocation();
