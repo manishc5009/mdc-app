@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import UploadComponent from './components/UploadComponent';
 import LoginPage from './components/Login';
 import './styles.css';
@@ -21,7 +21,6 @@ function AppContent() {
   const [showDropdown, setShowDropdown] = useState(false);
   const location = useLocation();
 
-  
   // Check if user is authenticated
   const isAuthenticated = accounts && accounts.length > 0;
 
