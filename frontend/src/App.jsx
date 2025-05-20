@@ -21,6 +21,15 @@ function AppContent() {
   const [showDropdown, setShowDropdown] = useState(false);
   const location = useLocation();
 
+  
+  // Check if user is authenticated
+  const isAuthenticated = accounts && accounts.length > 0;
+
+  // Redirect to login if not authenticated and not already on login page
+  if (!isAuthenticated && location.pathname !== "/login") {
+    return <Navigate to="/login" replace />;
+  }
+
   return (
     <>
       {location.pathname !== "/login" && (
